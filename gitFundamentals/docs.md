@@ -22,7 +22,8 @@ Git Workflow
 ### git clone "url" -->It create a clone version of the github repository.
 ### git remote add origin "url" --> It is used to connect local git repository to gitHub repository
 ### git remote seturl origin "url" --> It is used to replace the origin url.
-
+### git config -global user.name "name" --> To save the user name.
+### git config -global user.email "name" --> To save the user email.
 
 <h1 style = color:red;font-family:TimesNewRoman;>GIT ADD COMMANDS</h1> 
 
@@ -130,3 +131,26 @@ Git Revert  Workflow
 ### git pull/git pull origin main -->Pulls everything from gitHub to git.
 ### git merge origin main -->merges into main branch.
 ### git fetch origin main -->fetch from main branch.
+
+<h1 style = color:red;font-family:TimesNewRoman;>GIT STASH COMMAND</h1>
+
+### git stash/git stash push --> used to store in temprorily without commiting.
+### git stash list --> used to shows the stash history
+### git stash pop --> used to restore the last saved stash, but deletes it in trash
+### git stash apply --> used to restore the last saved stash,keeps it in trash.
+### git stash clear --> used to clear all stash.
+
+<h1 style = color:red;font-family:TimesNewRoman;>GIT TAG COMMAND</h1>
+
+### git tag --> shows list of tags.
+### git tag v1.0 --> create a light weighted tag.
+### git tag -a v1.0 -m "created tag" -->create a annoted tag.
+### git show v1.0 --> shows the details of v1.0 tag.
+### git tag -d v1.0 --> delete the tag.
+
+<h1 style = color:red;font-family:TimesNewRoman;>GIT OTHER COMMAND</h1>
+
+### git status --> To show the status of the files.
+### git reflog -->To show the commit history through head movements.
+### git rm "filemname" --> used to remove files.
+
